@@ -108,6 +108,9 @@
 
 /* Humberger */
 .humberger {
+    outline: none;
+    border: none;
+    background-color: white;
     display: flex;
     align-items: center;
     margin: 10px;
@@ -116,6 +119,8 @@
     padding-right: 15px;
     border-radius: 30px;
     border: 1px solid rgb(220, 220, 225);
+    position: relative;
+
 }
 
 .humberger:hover {
@@ -137,4 +142,44 @@
     height: 25px;
     width: 25px;
     fill: rgb(69, 69, 69);
+}
+
+/* Humberger Menu */
+.menu {
+    width: 200px;
+    box-shadow: 1px 1px 5px rgb(185, 180, 180), -1px -1px 5px rgb(205, 201, 201);
+    border-radius: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    z-index: 1000000;
+    background-color: white;
+}
+
+.menu.hide {
+    display: none;
+}
+
+.menu>div:first-child {
+    border-bottom: 1px solid rgb(185, 180, 180);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-row {
+    width: 100%;
+    padding: 11px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.menu-row.bold {
+    font-weight: 600;
+}
+
+.menu-row:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
 }
