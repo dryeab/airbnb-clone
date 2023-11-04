@@ -14,7 +14,7 @@ export default function Menu({ ref }: { ref: any }) {
     const isHidden = useSelector((state: RootState) => state.profile.hidden);
     const dispatch = useDispatch();
 
-    console.log("value of hide2 is", isHidden);
+    // console.log("value of hide2 is", isHidden);
 
     // const menuRef = useRef<HTMLUListElement>(null);
 
