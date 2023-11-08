@@ -1,4 +1,4 @@
-import styles from "@/styles/Header.module.css";
+import styles from "@/styles/Header/Profile/Language.module.css";
 
 export default function Language() {
   return (

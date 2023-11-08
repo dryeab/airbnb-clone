@@ -1,4 +1,4 @@
-import styles from "@/styles/Header.module.css";
+import styles from "@/styles/Header/Search/SearchIcon.module.css";
 
 export default function SearchIcon() {
   return (

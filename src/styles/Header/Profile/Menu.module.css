@@ -1,0 +1,45 @@
+.menu {
+    width: 200px;
+    box-shadow: 1px 1px 5px rgb(185, 180, 180), -1px -1px 5px rgb(205, 201, 201);
+    border-radius: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.menu.hide {
+    display: none;
+}
+
+.menu>div:first-child {
+    border-bottom: 1px solid rgb(241, 234, 234);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-row {
+    width: 100%;
+    padding: 11px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.menu-row.bold {
+    font-weight: 600;
+}
+
+.menu-row a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-row:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}

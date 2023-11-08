@@ -1,7 +1,7 @@
 import Humberger from "./Humberger";
 import Language from "./Language";
 
-import styles from "@/styles/Header.module.css";
+import styles from "@/styles/Header/Profile/Profile.module.css";
 
 export default function Profile() {
   return (

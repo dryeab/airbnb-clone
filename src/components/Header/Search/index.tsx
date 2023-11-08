@@ -1,6 +1,6 @@
 import SearchIcon from "./SearchIcon";
 
-import styles from "@/styles/Header.module.css";
+import styles from "@/styles/Header/Search/Search.module.css";
 
 export default function Search() {
   return (
